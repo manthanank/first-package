@@ -1,4 +1,5 @@
-module.exports = function() {
-    console.log("you're wonderful!");
-    return;
-  };
+function isName(string) {
+    return string === "Manthan"
+  }
+  
+  module.exports = isName
